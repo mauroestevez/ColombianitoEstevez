@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* A continuacion armamos nuestro menu navegable... */
+.main-menu{
+    text-align: center;
+    padding-top: 75px;
+    list-style-type: none;
+}
+.main-menu li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    border: solid 2px black;
+    padding: 20px 40px 20px 40px;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+.bordes-redondeados{
+    border-width: 3px;
+}
+
+/* Customizamos un poco la etiqueta <main> y la etiqueta <section>... */
+main{
+    background-color: #f5bc42;
+}
+section{
+    margin-left: 100px;
+}
+
+/* Le damos estilo a las clases que elgemimos para las imagenes y el video... */
+.section-inicio__imagen{
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+}
+.section-inicio__video{
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+}
+.section-productos__imagen{
+    width: 600px;
+    height: 300px;
+    margin-left: 30px;
+}
+.section-nosotros__imagen{
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+/* Le damos un estilo distinto al h1 de la pagina "nosotros"... */
+.section-nosotros__h1{
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Le damos estilo a las etiquetas <h1>, <h2> y <p>... */
+h1{
+    margin: 100px 0px 50px 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    margin: 50px 0px 50px 20px;
+    text-align: left;
+    font-size: x-large;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Le colocamos una imagen de fondo a la etiqueta <section> de la pagina "mision-vision"... */
+.imagen-fondo{
+    width: 1200px;
+    height: 600px;
+    background-image: url(../assets/fondo-cafe.jpg);
+}
+
+/* Le damos estilo al <footer>... */
+footer{
+    padding: 100px 0px 100px 0px;
+    background-color: #f5bc42;
+}
+
+/* Le aplicamos un margin al <div> dentro del <footer>... */
+.footer{
+    margin-left: 100px;
+}
+
+/* Comenzamos a modificar el formulario de la pagina de "contacto"... */
+
+/* Primero le aplicamos estilos a las etiquetas... */
+fieldset legend{
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: larger;
+}
+fieldset label{
+    display: block;
+}
+fieldset input{
+    font-size: medium;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* Luego le aplicamos a las clases... */
+.fieldset{
+    border: none;
+    margin-left: 100px;
+}
+.boton{
+    font-size: x-large;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
