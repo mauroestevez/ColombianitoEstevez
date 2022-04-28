@@ -5,26 +5,37 @@
 }
 
 /* A continuacion armamos nuestro menu navegable... */
-.main-menu{
+/* .main-menu{
     text-align: center;
     padding-top: 75px;
     list-style-type: none;
-}
-.main-menu li{
+} */
+/* .main-menu li{
     display: inline-block;
+} */
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.fondo{
+    background-color: white;
+}
+.inicio{
+    font-size: x-large;
 }
 li a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: black;
     border: solid 2px black;
-    padding: 20px 40px 20px 40px;
-    margin-right: 30px;
+    font-size: xx-large;
+    padding: 40px 80px 40px 80px;
+    margin-right: 200px;
     border-radius: 15px;
 }
-.bordes-redondeados{
+/* .bordes-redondeados{
     border-width: 3px;
-}
+} */
 
 /* Customizamos un poco la etiqueta <main> y la etiqueta <section>... */
 main{
