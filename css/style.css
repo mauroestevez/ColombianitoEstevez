@@ -63,11 +63,10 @@ section{
     width: 90%;
     height: 90%;
 }
-.section-nosotros__imagen{
-    width: 400px;
-    height: 200px;
-    margin-left: 30px;
-}
+/* .section-nosotros__imagen{
+    width: 40%;
+    height: 40%;
+} */
 
 /* Le damos un estilo distinto al h1 de la pagina "nosotros"... */
 .section-nosotros__h1{
