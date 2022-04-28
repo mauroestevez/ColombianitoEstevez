@@ -117,7 +117,10 @@ footer{
 /* Comenzamos a modificar el formulario de la pagina de "contacto"... */
 
 /* Primero le aplicamos estilos a las etiquetas... */
-fieldset legend{
+.form{
+    margin: 0 20%;
+}
+/* fieldset legend{
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -131,7 +134,7 @@ fieldset input{
     margin: 10px;
     padding: 5px;
     border-radius: 30px;
-}
+} */
 
 /* Luego le aplicamos a las clases... */
 .fieldset{
