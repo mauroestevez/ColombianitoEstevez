@@ -5,14 +5,7 @@
 }
 
 /* A continuacion armamos nuestro menu navegable... */
-/* .main-menu{
-    text-align: center;
-    padding-top: 75px;
-    list-style-type: none;
-} */
-/* .main-menu li{
-    display: inline-block;
-} */
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -33,9 +26,6 @@ li a{
     margin-right: 15px;
     border-radius: 15px;
 }
-/* .bordes-redondeados{
-    border-width: 3px;
-} */
 
 /* Customizamos un poco la etiqueta <main> y la etiqueta <section>... */
 main{
@@ -47,14 +37,12 @@ section{
 
 /* Le damos estilo a las clases que elgemimos para las imagenes y el video... */
 .section-inicio__imagen{
-    width: 600px;
-    height: 300px;
-    margin-left: 30px;
+    width: 50%;
+    height: 50%;
 }
 .section-inicio__video{
-    width: 600px;
-    height: 300px;
-    margin-left: 30px;
+    width: 70%;
+    height: 100%;
 }
 .section-productos__primer-imagen{
     width: 70%;
@@ -63,10 +51,6 @@ section{
     width: 90%;
     height: 90%;
 }
-/* .section-nosotros__imagen{
-    width: 40%;
-    height: 40%;
-} */
 
 /* Le damos un estilo distinto al h1 de la pagina "nosotros"... */
 .section-nosotros__h1{
@@ -97,13 +81,6 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-/* Le colocamos una imagen de fondo a la etiqueta <section> de la pagina "mision-vision"... */
-.imagen-fondo{
-    width: 1200px;
-    height: 600px;
-    background-image: url(../assets/fondo-cafe.jpg);
-}
-
 /* Le damos estilo al <footer>... */
 footer{
     padding: 100px 0px 100px 0px;
@@ -121,21 +98,6 @@ footer{
 .form{
     margin: 0 20%;
 }
-/* fieldset legend{
-    padding-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-size: larger;
-}
-fieldset label{
-    display: block;
-}
-fieldset input{
-    font-size: medium;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 30px;
-} */
 
 /* Luego le aplicamos a las clases... */
 .fieldset{
